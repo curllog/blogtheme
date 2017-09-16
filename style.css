@@ -1,0 +1,97 @@
+body{
+  background-image: url(img/dark-wood.jpg);
+  height: 100vh;
+}
+#container{
+  width: 80%;
+  height: 800px;
+  margin: 20px auto;
+  display: block;
+  height: auto;
+  background-color:gray;
+  padding: 20px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+header h1{
+ width: 15%;
+/* display: inline-block; */
+text-align: center;
+  border-right: 5px solid cornflowerblue; 
+  padding: 20px 5px;
+  border-top-right-radius: 20px;
+  
+}
+
+header h3{
+  position: absolute;
+  top: 90px;
+  padding-left: 180px;
+  font-family: monospace;
+}
+nav{
+  background-color: lightsteelblue;
+  width: 100%;
+  border-radius: 20px;
+  
+}
+nav ul li{
+  display: inline;
+  position: relative;
+  left: 150px;
+  padding-right: 45px;
+  
+  font-size: 40px;
+}
+nav ul li a{
+  color: gray;
+  text-decoration: none;
+  transition: 0.5s all;
+  opacity: 0.5;
+}
+main{
+  width: 100%;
+ height: auto;
+ height: 1024px;
+}
+nav ul li a:hover  {
+ color:black;
+ opacity: 1;
+}
+aside{
+  width: 20%;
+  float: left;
+  clear: left;
+text-align: left;
+}
+.main-article{
+  float: right;
+  width: 70%;
+  clear: right;
+  
+}
+aside a{
+  color: black;
+  text-decoration: none;
+  
+}
+aside a:hover{
+  color: white;
+  font-size: 15px;
+  text-decoration: underline;
+  
+}
+aside{
+  text-align: left;
+}
+aside li{
+  list-style-type: none;
+  padding-bottom: 5px;
+}
+footer{
+  text-align: center;
+  color: white;
+  border-top: 2px solid black;
+  padding-top: 5px;
+}
